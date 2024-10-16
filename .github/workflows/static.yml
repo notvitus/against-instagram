@@ -31,8 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          repository: baerchen201/ideal-spoon
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
