@@ -10,60 +10,48 @@
     A copy of the GNU General Public License should be hosted along with
     this website (LICENSE). If not, see <https://www.gnu.org/licenses/>.
 
-    bvvitus_@outlook.com
+    bvvitus@outlook.com
 -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sussy videos</title>
     <style>
-        .video-container {
-            margin-bottom: 20px;
-        }
-
-        button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-
-        video {
-            display: block;
-            margin-top: 10px;
-            width: 600px;
-        }
+      body {
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h1 {
+        font-size: 500%;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+      }
+      video {
+        margin-top: 10px;
+        height: 90%;
+      }
     </style>
-</head>
-<body>
-
-    
-    <div class="video-container">
-        <button onclick="document.getElementById('video1').play()">Play Video 1</button>
-        <video id="video1" src="vid/document_5222221838666455743.mp4"></video>
+  </head>
+  <body>
+    <h1>Reasons not to use Instagram:</h1>
+    <div>
+      <video src="vid/document_5222221838666455743.mp4" controls></video>
+      <video src="vid/document_5222221838666455745.mp4" controls></video>
+      <video src="vid/document_5222221838666455750.mp4" controls></video>
     </div>
-
-    
-    <div class="video-container">
-        <button onclick="document.getElementById('video2').play()">Play Video 2</button>
-        <video id="video2" src="vid/document_5222221838666455745.mp4"></video>
-    </div>
-
-    
-    <div class="video-container">
-        <button onclick="document.getElementById('video3').play()">Play Video 3</button>
-        <video id="video3" src="vid/document_5222221838666455750.mp4"></video>
-    </div>
-
-</body>
+  </body>
 </html>
