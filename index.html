@@ -36,7 +36,8 @@
         margin: 0;
         padding-top: 3mm;
       }
-      .contact-container {
+
+      div {
         background-color: #ffffff;
         padding: 10px;
         border-radius: 8px;
@@ -44,7 +45,8 @@
         max-width: 350px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      .contact-item {
+
+      a {
         display: flex;
         align-items: center;
         margin-bottom: 10px;
@@ -56,42 +58,34 @@
         font-weight: bold;
         color: white;
         width: 100%;
-        height: 60px;
+        min-height: 60px;
         box-sizing: border-box;
         transition: opacity 0.1s ease-in-out;
         text-decoration: none;
+        background-color: #bb2d2d;
       }
-      .contact-item:hover {
+      a:hover {
         opacity: 0.8;
         box-shadow: 0 0 0 3px #000;
       }
-      .contact-item img {
+      a img {
         margin-right: 5mm;
         height: 40px;
         width: 40px;
       }
-      .ytsus {
-        background-color: #bb2d2d;
-      }
     </style>
   </head>
   <body>
-    <div class="contact-container">
+    <div>
       <a
         href="https://www.youtube.com/watch?v=gMipkSZvVhg&list=PLQ7UFrsZSLHh_k-ggiqVcgdLNkxaVCOG0&index=1"
-        class="contact-item ytsus"
-        target="_blank"
       >
-        <img src="img/youtube-black.svg" alt="youtube" />
-        <span>YouTube<br />redshell.</span>
+        <img src="img/youtube-black.svg" />
+        <span>YouTube<br />Redshells Instagram Reels Playlist</span>
       </a>
-      <a href="sus-insta-vids.html" class="contact-item ytsus" target="_blank">
-        <img src="img/sussy-sussy.png" alt="sus-videos" />
-        <span>SUS-Videos<br />sus-insta-vids.html</span>
-      </a>
-      <a href="never-use" class="contact-item ytsus" target="_blank">
-        <img src="img/sussy-sussy.png" alt="never-use" />
-        <span>never-use<br />neveruse.md</span>
+      <a href="sus-insta-vids.html">
+        <img src="img/sussy-sussy.png" />
+        <span>SUS-Videos<br />Reasons not to use Instagram</span>
       </a>
     </div>
   </body>
